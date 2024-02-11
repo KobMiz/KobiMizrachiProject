@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 40%);
+}
+
+.boxgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.logos {
+    display: flex;
+    flex-direction: row-reverse;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-content: space-evenly;
+    margin-top: -20px;
+}
+
+.bigpic {
+    width: 27.85vw;
+    height: 74.4vh;
+    margin-right: 8.65vw;
+    margin-top: 10.91vh;
+}
+
+img {
+    width: 90%;
+    height: 90%;
+}
+
+.container {
+    margin-top: 17.86vh;
+    margin-right: 9vw;
+}
+
+.hpSize {
+    width: 20.5vw;
+}
+
+.background {
+    width: 95px;
+    height: 95px;
+    background-color: #FDBD03;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 6px #00000029;
+    /*   top: 85%; */
+}
+
+.icons {
+    width: 35.5%;
+    height: 35.5%;
+    color: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.wpslogo {
+    position: absolute;
+    top: 4.98vh;
+    left: 3.385vw;
+}
+
+.upper {
+    width: 22.6vw;
+    height: 18px;
+    background-color: #FDBD03;
+    background-position-x: right;
+    background-position-y: top;
+}
+
+.bottom {
+    background-color: #FDBD03;
+    width: 53.8vw;
+    height: 1.43%;
+    position: absolute;
+    left: 0;
+    top: 98.5vh;
+}
+
+h1 {
+    text-align: right;
+    font: normal normal 900 66px/97px Heebo;
+    letter-spacing: 0px;
+    color: #FDBD03;
+    opacity: 1;
+}
+
+p {
+    text-align: right;
+    font: normal normal normal 20px/29px Heebo;
+    letter-spacing: 0px;
+    color: #020253;
+    opacity: 1;
+    margin-bottom: 35px;
+    margin-top: 1.19vh;
+}
+
+form {
+    text-align: right;
+    font: normal normal bold 16px/24px Heebo;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+}
+
+input[type=text] {
+    background-color: #E5EEFF;
+    border-bottom: 4px solid #FDBD03;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 21.7vw;
+    height: 4.6vh;
+    margin-bottom: 10px;
+}
+
+textarea {
+    background-color: #E5EEFF;
+    border-bottom: 4px solid #FDBD03;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 13.15vh;
+    width: 44.48vw;
+}
+
+label {
+    text-align: right;
+    font: normal normal bold 16px/24px Heebo;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+    opacity: 1;
+}
+
+input[type=submit] {
+    height: 4.6vh;
+    width: 8.645vw;
+    background: #FDBD03 0%;
+    border: none;
+    text-align: center;
+    font: normal normal bold 22px/30px Heebo;
+    letter-spacing: 0.33px;
+    color: #000000;
+    margin-top: 5.81vh;
+}
+
+@media screen and (max-width:1060px) {
+    .wpslogo {
+        display: none;
+    }
+
+    .bigpic {
+        margin-top: 6.23vh;
+        margin-right: 39.46vw;
+        width: 79px;
+        height: 119px;
+        position: absolute;
+    }
+
+    .container {
+        margin-top: 24.16vh;
+        margin-right: 9vw;
+    }
+
+    .hpSize {
+        width: 79.19vw;
+    }
+
+
+    h1 {
+        font: normal normal 900 40px/59px Heebo;
+        margin-right: 50px;
+    }
+
+    p {
+        font: normal normal normal 15px/22px Heebo;
+        margin-bottom: 35.3px;
+        margin-top: 1vh;
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 83.78vw;
+        height: 15vh;
+    }
+
+    input[type=text] {
+        width: 83.5vw;
+        margin-bottom: 0;
+    }
+
+
+    textarea {
+        height: 13.15vh;
+        width: 83.5vw;
+    }
+
+    input[type=submit] {
+        height: 4.6vh;
+        width: 83.5vw;
+        font: normal normal bold 15px/21px Heebo;
+        margin-top: 1vh;
+    }
+
+    .bottom {
+        display: none;
+    }
+
+    .upper {
+        display: none;
+    }
+
+    .background {
+        width: 46px;
+        height: 46px;
+        background-color: #FDBD03;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 3px 6px #00000029;
+        /*   top: 85%; */
+    }
+
+    .icons {
+        width: 35.5%;
+        height: 35.5%;
+        color: #000000 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .logos {
+        margin-left: 50vw;
+        margin-top: 22.05vh;
+
+    }
+
+    .phupper {
+        width: 86.48vw;
+        height: 10px;
+        background-color: #FDBD03;
+
+    }
+
+    .phbottom {
+        background-color: #FDBD03;
+        width: 100vw;
+        height: 1.43%;
+        position: absolute;
+        top: 98.3%;
+    }
+
+    .logos {
+        position: absolute;
+        margin-top: 120px;
+        gap: 15px;
+        margin-right: 65px;
+    }
+
+    label {
+        font: normal normal bold 10px/14px Heebo;
+    }
+
+}
+
+@media screen and (max-height:850px) {
+    .logos {
+        position: absolute;
+        margin-top: 30px;
+        gap: 15px;
+        margin-right: 65px;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .logos {
+        display: none;
+    }
+
+    .phbottom {
+        background-color: #FDBD03;
+        width: 100vw;
+        height: 1.43%;
+        position: absolute;
+        top: 645px;
+    }
+}

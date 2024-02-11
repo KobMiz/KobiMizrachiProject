@@ -1,0 +1,45 @@
+.about {
+    color: blue;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.minime {
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    margin-top: 50px;
+}
+
+.sectionh2 {
+    font-size: 50px;
+    color: #8a264b;
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 25px;
+}
+
+.text2 {
+    font-family: 'Fredoka', sans-serif;
+    color: black;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.aboutbuton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 300px;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.buton {
+    height: 50px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #8a264b;
+    color: #F8FAFB;
+}

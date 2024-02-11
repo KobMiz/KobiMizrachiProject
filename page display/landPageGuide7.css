@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8FAFB;
+}
+
+.heading {
+    width: 100%;
+    height: 8vh;
+    background-color: #8a264b;
+}
+
+.siteLogo {
+    display: flex;
+    height: 75px;
+    width: 37.5vw;
+}
+
+.behindheader {
+    width: 100%;
+    height: 35vh;
+}
+
+.main {
+    position: absolute;
+    top: 11vh;
+    left: 33vw;
+    width: 35vw;
+}
+
+h2 {
+    font-size: 38px;
+    color: #8a264b;
+    font-family: 'Rubik Burned', system-ui;
+    text-align: center;
+}
+
+.aboutp {
+    font-family: 'Rubik Spray Paint', system-ui;
+    color: #8a264b;
+    font-size: 16px;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.twobut {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 300px;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.butun {
+    height: 50px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #8a264b;
+    color: #F8FAFB;
+    font-size: 20px;
+}
+
+.afterheadr {
+    width: 100%;
+    height: 10vh;
+    margin-top: -5px;
+    background-color: #8a264b;
+}
+
+.miniLogos {
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    margin: 0 auto;
+    width: 330px;
+}
+
+.imgset {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.imgsetb {
+    width: 60px;
+    height: 60px;
+    margin-top: 17px;
+}
+
+.imgpos {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.landaf {
+    width: 50%;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.bottomright {
+    height: 20px;
+    width: 100%;
+    background-color: #8a264b;
+}
+
+.rights {
+    width: 100%;
+    height: 25px;
+    background-color: #8a264b;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.rightname {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .landaf {
+        width: 80%;
+        height: 50%;
+        margin: 0 auto;
+    }
+
+    .main {
+        position: absolute;
+        top: 11vh;
+        left: 0;
+        width: 100vw;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .aboutp {
+        font-family: 'Rubik Spray Paint', system-ui;
+        color: #8a264b;
+        font-size: 12px;
+        margin-top: 2rem;
+        text-align: center;
+    }
+}

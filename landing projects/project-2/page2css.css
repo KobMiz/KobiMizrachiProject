@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 30.2vh;
+    width: 1099px;
+}
+
+
+h1 {
+    color: #fff;
+    font-weight: 300;
+    font: normal normal normal 160px/231px Satisfy;
+    text-shadow: 0px 0px 36px #00000087;
+    text-align: center;
+}
+
+h2 {
+    font-weight: normal;
+    color: #fff;
+    font: normal normal normal 32px/38px Varela Round;
+    text-align: center;
+}
+
+p {
+    font-weight: normal;
+    color: #f9f9f9;
+    font: normal normal normal 16px/20px Varela Round;
+    margin-top: 15px;
+    margin-bottom: 45px;
+    text-align: center;
+
+}
+
+form {
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: normal;
+    text-align: right;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Varela Round', sans-serif;
+    gap: 5px;
+    justify-content: center;
+}
+
+input[type=text] {
+    width: 417.5px;
+    height: 50px;
+    font-family: 'Varela Round', sans-serif;
+    border: 2px solid #fff;
+    background: #F6F6F624 0% 0% no-repeat padding-box;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+input[type=submit] {
+    text-align: center;
+    color: #1C1C1C;
+    font: normal normal normal 16px/20px Varela Round;
+    background-color: #fff;
+    width: 206px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 18px;
+}
+
+@media screen and (max-width:1200px) {
+    body {
+        background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+    }
+
+    .container {
+        width: 100vw;
+        top: 5vh;
+        height: 70vh;
+
+    }
+
+    .formph {
+        width: 95%;
+        margin: 0 auto;
+
+    }
+
+
+    h1 {
+        font: normal normal normal 60px/86px 'Satisfy';
+        text-shadow: 0px 0px 36px #00000087;
+        margin-top: 80px;
+
+    }
+
+    h2 {
+        font: normal normal normal 18px/22px 'Varela Round';
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    p {
+        margin-top: 20px;
+        margin-bottom: 60px;
+        text-align: center;
+        font: normal normal normal 16px/20px 'Varela Round';
+    }
+
+    form {
+        font-size: 11px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input[type=text] {
+        width: 301.5px;
+        height: 36.1px;
+        margin-left: 0;
+        gap: 10px;
+        color: #F9F9F9;
+    }
+
+    input[type=submit] {
+        color: #2823FD;
+        background-color: #fff;
+        font-weight: 600;
+        width: 301.5px;
+        height: 33px;
+        margin-top: 0;
+        font: normal normal normal 11px/13px 'Varela Round';
+        opacity: 1;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .container {
+        width: 100vw;
+        top: 0;
+        height: 100vh;
+
+    }
+
+    .formph {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    input[type=submit] {
+        width: 200.5px;
+    }
+
+    input[type=text] {
+        width: 200.5px;
+
+    }
+}

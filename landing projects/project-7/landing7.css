@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 58vh;
+    background-color: #0EE1E1;
+
+}
+
+.headerinfo {
+    height: 26.5%;
+    width: 40.99%;
+    margin: 0 auto;
+}
+
+
+.rightimg {
+    height: 24.7vh;
+    width: 16.875vw;
+    position: absolute;
+    top: 17.5%;
+    left: 75.2%;
+}
+
+.rightimgphone {
+    display: none;
+}
+
+.leftimg {
+    position: absolute;
+    top: 5.84%;
+    left: 3.38%;
+    width: 95px;
+    height: 95px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.whatappset {
+    width: 35.5%;
+    height: 35.5%;
+    color: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.heading {
+    text-align: right;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding-top: 28.5%;
+    margin-right: 10%;
+    font: normal normal 900 66px/97px Heebo;
+}
+
+.headingp {
+    text-align: right;
+    font: normal normal normal 20px/29px Heebo;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding-top: 15px;
+    margin-right: 10%;
+}
+
+.container-fluid {
+    margin-top: 4.25vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.cardimgtop {
+    width: 50px;
+    height: 50px;
+    margin-left: 43%;
+    margin-top: 6.95vh;
+}
+
+.cardbox {
+    width: 23.8vw;
+    background-color: #F8F8F8;
+    height: 30vh;
+    margin-bottom: 6.5vh;
+}
+
+.cardtitle {
+    text-align: center;
+    font: normal normal 900 30px/44px Heebo;
+    letter-spacing: 0px;
+    color: #0EE1E1;
+    opacity: 1;
+    margin-top: 2.75vh;
+}
+
+.cardtext {
+    text-align: center;
+    font: normal normal normal 15px/22px Heebo;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.card-body {
+    width: 65.5%;
+    margin: 0 auto;
+}
+
+#thirdcontainer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#container-map {
+    width: 60vw;
+    height: 86.85vh;
+    background-color: #0EE1E1;
+}
+
+.map {
+    width: 49vw;
+    height: 70vh;
+    position: absolute;
+    right: 5.1vw;
+    margin-top: 7.78vh;
+}
+
+#container-form-title {
+    width: 60%;
+}
+
+#containerform {
+    direction: rtl;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0FFFF;
+    height: 86.85vh;
+}
+
+.formheading {
+    font: normal normal 900 46px/67px Heebo;
+    letter-spacing: 0px;
+    color: #090909;
+    opacity: 1;
+    margin-top: 8.98vh;
+}
+
+.formp {
+    font: normal normal normal 15px/22px Heebo;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 3.5vh;
+}
+
+form {
+    width: 60%;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 4.6vh;
+    background-color: #E5EEFF;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid #0EE1E1;
+    margin-bottom: 2.15vh;
+}
+
+textarea {
+    width: 100%;
+    height: 15.45vh;
+    background-color: #E5EEFF;
+    border-bottom: 4px solid #0EE1E1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+input[type=submit] {
+    width: 100%;
+    text-align: center;
+    font: normal normal bold 20px/28px Heebo;
+    letter-spacing: 0.3px;
+    color: #000000;
+    opacity: 1;
+    background-color: #0EE1E1;
+    border: none;
+    height: 4.6vh;
+    margin-top: 2.5vh;
+}
+
+label {
+    text-align: right;
+    font: normal normal bold 13px/19px Heebo;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+    opacity: 1;
+}
+
+.background {
+    width: 95px;
+    height: 95px;
+    background-color: #0EE1E1;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.icon {
+    width: 35.5%;
+    height: 35.5%;
+    color: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.logo-line {
+    width: 33.73vw;
+    margin: 0 auto;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+
+.bottom {
+    background-color: #0EE1E1;
+    width: 100%;
+    height: 1.43%;
+    position: absolute;
+    left: 0;
+    top: 205.5vh;
+}
+
+@media screen and (max-width:800px) {
+    .rightimg {
+        display: none;
+    }
+
+    .leftimg {
+        display: none;
+    }
+
+    .rightimgphone {
+        display: block;
+        position: absolute;
+        top: 73px;
+        right: 33px;
+
+    }
+
+    .boxsetph {
+        width: 21vw;
+        height: 11.5vh;
+    }
+
+    .header {
+        width: 100%;
+        height: 65vh;
+    }
+
+    .headerinfo {
+        height: 26.5%;
+        width: 68.99%;
+    }
+
+    .heading {
+        font: normal normal 900 33px/49px Heebo;
+        padding-top: 30.5vh;
+        margin-right: 0;
+    }
+
+    .headingp {
+        font: normal normal normal 15px/22px Heebo;
+        padding-top: 0;
+        margin-right: 0;
+    }
+
+    .container-fluid {
+        margin-top: 4.25vh;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .cardimgtop {
+        width: 50px;
+        height: 50px;
+        margin-top: 6.95vh;
+    }
+
+    .cardbox {
+        width: 93vw;
+        background-color: #F8F8F8;
+        height: 46.5vh;
+        margin-bottom: 2.5vh;
+    }
+
+    .cardtitle {
+        text-align: center;
+        font: normal normal 900 30px/44px Heebo;
+        letter-spacing: 0px;
+        color: #0EE1E1;
+        opacity: 1;
+        margin-top: 2.75vh;
+    }
+
+    .cardtext {
+        text-align: center;
+        font: normal normal normal 15px/22px Heebo;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+
+    .card-body {
+        width: 65.5%;
+        margin: 0 auto;
+    }
+
+    .bottom {
+        display: none;
+    }
+
+    #thirdcontainer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #containerform {
+        width: 100vw;
+        height: 91.43vh;
+    }
+
+    #container-form-title {
+        width: 78.64%;
+    }
+
+    .formheading {
+        font: normal normal 900 32px/47px Heebo;
+        margin-top: 10.98vh;
+    }
+
+    .formp {
+        font: normal normal normal 15px/22px Heebo;
+        margin-bottom: 3.5vh;
+    }
+
+    form {
+        width: 78.64%;
+    }
+
+    input[type=text] {
+        width: 100%;
+        height: 5.89vh;
+        background-color: #FFFFFF;
+    }
+
+    textarea {
+        width: 100%;
+        height: 16.99vh;
+        background-color: #FFFFFF;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        font: normal normal bold 13px/19px Heebo;
+        height: 5.89vh;
+    }
+
+    #container-map {
+        width: 100%;
+        height: 63.85vh;
+        background-color: #0EE1E1;
+    }
+
+    .map {
+        width: 80vw;
+        height: 50vh;
+        position: absolute;
+        right: 10vw;
+        margin-top: 7.78vh;
+    }
+
+    .logo-line {
+        width: 70vw;
+        margin: 0 auto;
+    }
+
+    .background {
+        width: 46px;
+        height: 46px;
+    }
+
+    .icon {
+        width: 35.5%;
+        height: 35.5%;
+        color: #000000 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .bottomph {
+        background-color: #0EE1E1;
+        width: 100vw;
+        height: 1.43%;
+        position: absolute;
+        top: 440%;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .heading {
+        padding-top: 25.5vh;
+    }
+}
