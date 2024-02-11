@@ -63,7 +63,7 @@ h2 {
     border-radius: 50%;
     background-color: #8a264b;
     color: #F8FAFB;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .afterheadr {
@@ -150,5 +150,19 @@ h2 {
         font-size: 12px;
         margin-top: 2rem;
         text-align: center;
+    }
+
+    .miniLogos {
+        width: 100%;
+    }
+
+    .afterheadr {
+        width: 100vw;
+    }
+
+    .imgsetb {
+        width: 60px;
+        height: 60px;
+        margin-top: 1.8vh;
     }
 }
