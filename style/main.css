@@ -171,11 +171,12 @@ html {
 }
 
 .buton {
-  height: 50px;
+  height: 75px;
   width: 200px;
   border-radius: 50%;
   background-color: #8a264b;
   color: #F8FAFB;
+  margin-right: 2.9vw;
 }
 
 #gallery {
