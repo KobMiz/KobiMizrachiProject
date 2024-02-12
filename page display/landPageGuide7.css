@@ -82,14 +82,17 @@ a:link {
 
 a:visited {
     color: #fff;
+    font-size: 16.5px;
 }
 
 a:hover {
     color: #fff;
+    font-size: 16.5px;
 }
 
 a.new:hover {
     color: #fff;
+    font-size: 16.5px;
 }
 
 .afterheadr {
