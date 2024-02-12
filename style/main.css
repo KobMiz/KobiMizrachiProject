@@ -168,6 +168,13 @@ html {
   color: #fff;
 }
 
+@media screen and (max-width: 800px) {
+  .gallerya:link {
+    text-decoration: none;
+    color: #8a264b;
+    font-size: 21px;
+  }
+}
 .about {
   color: blue;
   text-align: center;
@@ -449,6 +456,11 @@ h6 {
     text-align: center;
     margin-top: 10px;
     font-size: 22px;
+  }
+  #gallery .gallerya {
+    text-decoration: none;
+    color: #8a264b;
+    font-size: 18px;
   }
   #gallery .galleryBox {
     width: 40vw;

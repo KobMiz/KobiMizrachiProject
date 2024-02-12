@@ -33,3 +33,12 @@
 .asetting.new:hover {
     color: #fff;
 }
+
+@media screen and (max-width:800px) {
+    .gallerya:link {
+        text-decoration: none;
+        color: #8a264b;
+        font-size: 21px;
+    }
+
+}
