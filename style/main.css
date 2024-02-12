@@ -431,8 +431,8 @@ h6 {
     margin-top: 4vh;
   }
   .inform {
-    margin-right: 50px;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-right: 45px;
   }
   .forbuton {
     margin-right: 50px;
@@ -518,12 +518,19 @@ h6 {
     border-radius: 50%;
   }
   .contact {
-    height: 260px;
+    height: 400px;
+    width: 100%;
     background-color: #C3B2E1;
+    display: flex;
+    justify-content: space-between;
+  }
+  .mininfo {
+    width: 100%;
+    padding-top: 20px;
   }
   .infologo {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
   .footerlogo:link {
     font-size: 14px;
