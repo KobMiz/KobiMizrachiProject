@@ -132,22 +132,22 @@ html {
   padding: 10px;
 }
 
-a:link {
+.gallerya:link {
   text-decoration: none;
   color: #8a264b;
   font-size: 24px;
 }
 
-a:visited {
+.gallerya:visited {
   color: #8a264b;
 }
 
-a:hover {
+.gallerya:hover {
   text-decoration: underline;
   color: maroon;
 }
 
-a.new:hover {
+.gallerya.new:hover {
   color: #8a264b;
 }
 
@@ -201,9 +201,9 @@ a.new:hover {
   flex-direction: row;
   justify-content: space-between;
   margin: auto;
-  width: 300px;
-  gap: 60px;
+  width: 500px;
   margin-top: 20px;
+  margin-right: 31.5vw;
 }
 
 .buton {
@@ -212,7 +212,6 @@ a.new:hover {
   border-radius: 50%;
   background-color: #8a264b;
   color: #F8FAFB;
-  margin-right: 2.9vw;
 }
 
 #gallery {
