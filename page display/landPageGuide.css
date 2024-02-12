@@ -9,20 +9,29 @@ body {
 }
 
 .heading {
-    width: 100%;
-    height: 8vh;
     background-color: #8a264b;
+    color: #fff;
+    flex-direction: row-reverse;
+    position: fixed;
+    width: 100%;
 }
 
-.siteLogo {
-    display: flex;
-    height: 75px;
-    width: 37.5vw;
+.logo-text {
+    font-size: 20px;
+    color: #F8FAFB;
+    font-family: 'Rubik Spray Paint', system-ui;
+}
+
+.miniMe {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
 }
 
 .behindheader {
     width: 100%;
-    height: 35vh;
+    height: 40vh;
 }
 
 .main {
