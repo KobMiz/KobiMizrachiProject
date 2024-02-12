@@ -384,12 +384,12 @@ h6 {
     width: 80%;
   }
   .mainh1 {
-    font-size: 34px;
+    font-size: 30px;
     text-align: center;
   }
   .text1 {
-    font-size: 16px;
-    margin-top: 1rem;
+    font-size: 19px;
+    margin-top: 0.5rem;
     text-align: center;
   }
   #gallery {
@@ -408,6 +408,9 @@ h6 {
     text-align: center;
     margin-top: 10px;
     font-size: 14px;
+  }
+  #gallery .galleryBox {
+    width: 40vw;
   }
   .inform {
     margin-right: 50px;
