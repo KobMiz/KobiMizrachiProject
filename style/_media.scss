@@ -179,35 +179,3 @@
     }
 
 }
-
-@media (min-width: 830px) {
-    .nav {
-        max-height: none;
-        top: 0;
-        position: relative;
-        float: right;
-        width: fit-content;
-        background-color: transparent;
-
-    }
-
-    .menu li {
-        float: left;
-    }
-
-    .menu a:hover {
-        background-color: transparent;
-        color: var(--gray);
-    }
-
-    .hamb {
-        display: none;
-    }
-}
-
-@media (max-width: 830px) {
-    .logo {
-        height: 55px;
-        margin-top: 15px;
-    }
-}
