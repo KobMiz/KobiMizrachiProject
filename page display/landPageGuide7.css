@@ -75,6 +75,23 @@ h2 {
     font-size: 15px;
 }
 
+a:link {
+    color: #fff;
+    font-size: 26px;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}
+
+a.new:hover {
+    color: #fff;
+}
+
 .afterheadr {
     width: 100%;
     height: 10vh;

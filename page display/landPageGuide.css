@@ -72,9 +72,25 @@ h2 {
     border-radius: 50%;
     background-color: #8a264b;
     color: #F8FAFB;
-    font-size: 15px;
+
 }
 
+a:link {
+    color: #fff;
+    font-size: 26px;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}
+
+a.new:hover {
+    color: #fff;
+}
 
 .afterheadr {
     width: 100%;
@@ -130,11 +146,17 @@ h2 {
 }
 
 
+
+
 @media screen and (max-width:1200px) {
     .landaf {
         width: 80%;
         height: 50%;
         margin: 0 auto;
+    }
+
+    .behindheader {
+        height: 50vh;
     }
 
     .main {
@@ -145,13 +167,13 @@ h2 {
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .aboutp {
         font-family: 'Rubik Spray Paint', system-ui;
         color: #8a264b;
-        font-size: 12px;
+        font-size: 16px;
         margin-top: 2rem;
         text-align: center;
     }
