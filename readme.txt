@@ -32,11 +32,13 @@ git clone [https://github.com/KobMiz/portfolio-project.git]
 5. Customize the portfolio further by updating the HTML and CSS files as needed.
 
 ## Folder Structure
-- *css*: Contains CSS files for styling the portfolio.
+- *style*: Contains CSS files for styling the portfolio.
 - *images*: Stores image files used in the portfolio, such as project screenshots or profile pictures.
 - *index.html*: Main HTML file for the portfolio homepage.
-- *projects.html*: Additional HTML file for showcasing projects in detail.
-- *contact.html*: Additional HTML file for the contact form and information.
+- landing projects*: Additional HTML file for showcasing projects in detail.
+- *page display*: Additional HTML file for the landing page.
+- *scripts*: Contains script files for the portfolio project.
+
 
 ## Credits
 - Developed by [Kobi Mizrachi](https://github.com/KobMiz)
