@@ -264,14 +264,14 @@ input[type=submit] {
         width: 100vw;
         height: 1.43%;
         position: absolute;
-        top: 98.3%;
+        top: 99vh;
     }
 
     .logos {
         position: absolute;
-        margin-top: 120px;
+        margin-top: 12vh;
         gap: 15px;
-        margin-right: 65px;
+        margin-right: 33vw;
     }
 
     label {
@@ -283,9 +283,10 @@ input[type=submit] {
 @media screen and (max-height:850px) {
     .logos {
         position: absolute;
-        margin-top: 30px;
+        margin-top: 8vh;
         gap: 15px;
-        margin-right: 65px;
+        margin-right: 20vw;
+
     }
 }
 
