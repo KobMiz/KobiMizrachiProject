@@ -260,19 +260,18 @@ label {
     .rightimgphone {
         display: block;
         position: absolute;
-        top: 73px;
+        top: 70px;
         right: 33px;
-
     }
 
     .boxsetph {
         width: 21vw;
-        height: 11.5vh;
+        height: 8vh;
     }
 
     .header {
         width: 100%;
-        height: 65vh;
+        height: 45vh;
     }
 
     .headerinfo {
@@ -282,7 +281,7 @@ label {
 
     .heading {
         font: normal normal 900 33px/49px Heebo;
-        padding-top: 30.5vh;
+        padding-top: 20vh;
         margin-right: 0;
     }
 
@@ -417,9 +416,9 @@ label {
     .bottomph {
         background-color: #0EE1E1;
         width: 100vw;
-        height: 1.43%;
+        height: 1.5%;
         position: absolute;
-        top: 440%;
+        margin-top: 5vh;
         left: 0;
     }
 }
