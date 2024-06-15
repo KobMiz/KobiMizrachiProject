@@ -58,10 +58,11 @@ span {
 }
 
 @media screen and (max-width:650px) {
-*{
-    overflow: hidden;
-}
-#board {
+    * {
+        overflow: hidden;
+    }
+
+    #board {
         height: auto;
         width: 350px;
         max-width: 100%;

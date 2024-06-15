@@ -64,6 +64,10 @@ function setPiece() {
         currentPlayer = playerRed;
     }
 
+    let dropSound = document.getElementById("pieceDropSound");
+    dropSound.currentTime = 0;
+    dropSound.play();
+
     rowToFill -= 1;
     currentColumns[c] = rowToFill;
 
@@ -76,7 +80,6 @@ function setPiece() {
 
 
 function checkWinner() {
-    // Check horizontal
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < columns - 3; c++) {
             if (board[r][c] != ' ' &&
@@ -89,7 +92,6 @@ function checkWinner() {
         }
     }
 
-    // Check vertical
     for (let c = 0; c < columns; c++) {
         for (let r = 0; r < rows - 3; r++) {
             if (board[r][c] != ' ' &&
@@ -102,7 +104,6 @@ function checkWinner() {
         }
     }
 
-    // Check diagonal (top-left to bottom-right)
     for (let r = 0; r < rows - 3; r++) {
         for (let c = 0; c < columns - 3; c++) {
             if (board[r][c] != ' ' &&
@@ -115,7 +116,6 @@ function checkWinner() {
         }
     }
 
-    // Check diagonal (top-right to bottom-left)
     for (let r = 0; r < rows - 3; r++) {
         for (let c = 3; c < columns; c++) {
             if (board[r][c] != ' ' &&
@@ -128,7 +128,6 @@ function checkWinner() {
         }
     }
 
-    // Check for tie
     let tie = true;
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < columns; c++) {
@@ -158,6 +157,10 @@ function setWinner(r, c) {
         winner.style.color = '#dede2e';
     }
 
+    let winSound = document.getElementById("winSound");
+    winSound.currentTime = 0; // איפוס נגן קודם
+    winSound.play();
+
     gameOver = true;
     document.getElementById("restartButton").style.display = "inline-block"; // תצוגת הכפתור גם במקרה של ניצחון
 }
@@ -173,4 +176,5 @@ function restartGame() {
     let turnMessage = document.getElementById("turnMessage");
     turnMessage.innerText = currentPlayer == playerRed ? "התור של האדום" : "התור של הצהוב";
     turnMessage.style.color = currentPlayer == playerRed ? "red" : "#dede2e";
+    turnMessage.style.fontSize = '24px';
 }

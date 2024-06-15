@@ -22,6 +22,10 @@ divs.forEach(div => {
             return;
         }
 
+        const clickSound = new Audio('click.mp3');
+        clickSound.play();
+
+
         if (isX) {
             elem.innerText = "X";
         } else {
@@ -88,6 +92,9 @@ function winner(op, win) {
     winnerSpan.innerText = `המנצח הוא - ${win}`;
     winnerSpan.style.display = 'block';
     winnerSpan.style.margin = '20px auto';
+
+    const winSound = new Audio('applause.mp3');
+    winSound.play();
 
     setTimeout(() => {
         winnerSpan.style.display = 'none';

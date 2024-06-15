@@ -1,7 +1,7 @@
 
 const emo = ["🍔", "🍔", "🍕", "🍕", "🍟", "🍟", "🌯", "🌯", "🌭", "🌭", "🌮", "🌮", "🥓", "🥓", "🍳", "🍳"];
 var score = localStorage.getItem('memory_game_score') || 0;
-var isAnimating = false; 
+var isAnimating = false;
 
 function resetGame() {
     document.querySelector('.game').innerHTML = '';
@@ -36,9 +36,10 @@ function startGame() {
         box.innerHTML = emo[i];
 
         box.onclick = function () {
-            if (!isAnimating) { 
-                isAnimating = true; 
+            if (!isAnimating) {
+                isAnimating = true;
                 this.classList.add('boxOpen');
+                playClickSound();
                 setTimeout(() => {
                     if (document.querySelectorAll('.boxOpen').length > 1) {
                         if (document.querySelectorAll('.boxOpen')[0].innerHTML == document.querySelectorAll('.boxOpen')[1].innerHTML) {
@@ -50,6 +51,9 @@ function startGame() {
 
                             if (document.querySelectorAll('.boxMatch').length == emo.length) {
                                 score++;
+                                let audio = document.getElementById('winSound');
+                                audio.currentTime = 0;
+                                audio.play();
                                 localStorage.setItem('memory_game_score', score);
                                 updateScoreDisplay();
                                 alert('יש בך את הרעב לנצח, ניצחון!');
@@ -70,6 +74,12 @@ function startGame() {
 
 function updateScoreDisplay() {
     document.querySelector('.score').textContent = 'ניקוד: ' + score;
+}
+
+function playClickSound() {
+    var audio = document.getElementById('clickSound');
+    audio.currentTime = 0;
+    audio.play();
 }
 
 startGame();
