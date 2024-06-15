@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Sketchbook</title>
+</head>
+
+<body>
+    <section class="container">
+        <div id="toolbar">
+            <h1>בלוק-ציור</h1>
+            <label for="stroke">צבע מברשת</label>
+            <input type="color" id="stroke" name="stroke">
+            <label for="lineWidth">עובי מברשת</label>
+            <input type="number" id="lineWidth" name="lineWidth" value="5">
+            <button id="draw">צייר</button>
+            <button id="erase">מחק</button>
+            <button id="clear">התחל מחדש</button>
+        </div>
+        <div class="drawing-board">
+            <canvas id="drawing-board"></canvas>
+        </div>
+    </section>
+
+</body>
+
+</html>

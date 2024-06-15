@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&family=Rubik+Doodle+Triangles&display=swap"
+        rel="stylesheet">
+    <title>בונה מסכים</title>
+</head>
+
+<body>
+    <div id="frame">
+        <div id="panelSide">
+            <h1>בונה מסך</h1>
+
+            <nav>
+                <a class="active" onclick="pageToShow('settings', this)">עיצוב הדף</a>
+                <a onclick="pageToShow('elements', this)">אלמנטים</a>
+            </nav>
+
+            <div id="settings" class="show">
+                <div class="field">
+                    <label>צבע רקע בדף</label>
+                    <input type="color" oninput="bgChange(this)">
+                </div>
+
+                <div class="field">
+                    <label>ריווח פנימי בין אלמנטים (בפיקסלים)</label>
+                    <input type="number" value="16" oninput="paddingChange(this)">
+                </div>
+
+                <div class="field">
+                    <label>רוחב הדף (עד 1300 פיקסלים)</label>
+                    <input type="number" value="800" oninput="changePageSize(this)">
+                </div>
+
+                <div class="field">
+                    <label>אורך הדף (עד 1800 פיקסלים)</label>
+                    <input type="number" value="800" oninput="changePageHeight(this)">
+                </div>
+            </div>
+
+
+            <div id="elements">
+                <div class="field">
+                    <label>יש לבחור סוג אלמנט</label>
+                    <select oninput="typeSelect(this)">
+                        <option></option>
+                        <option value="title">כותרת</option>
+                        <option value="p">פסקה</option>
+                        <option value="input">תיבת קלט</option>
+                        <option value="button">כפתור לחיצה</option>
+                        <option value="img">תמונה</option>
+                        <option value="a">קישור</option>
+                    </select>
+                </div>
+
+                <div id="params">
+                    <div id="headerType" class="field">
+                        <label>סוג כותרת</label>
+                        <select>
+                            <option>h1</option>
+                            <option>h2</option>
+                            <option>h3</option>
+                            <option>h4</option>
+                            <option>h5</option>
+                            <option>h6</option>
+                        </select>
+                    </div>
+
+                    <div id="inputType" class="field">
+                        <label>סוג קלט</label>
+                        <select>
+                            <option value="text">טקסט</option>
+                            <option value="number">מספר</option>
+                            <option value="date">תאריך</option>
+                            <option value="time">שעה</option>
+                        </select>
+                    </div>
+
+                    <div id="fontSize" class="field">
+                        <label>גודל הטקסט</label>
+                        <input type="number">
+                    </div>
+
+                    <div id="backgroundColor" class="field">
+                        <label>צבע כפתור</label>
+                        <input type="color">
+                    </div>
+
+                    <div id="color" class="field">
+                        <label>צבע טקסט</label>
+                        <input type="color">
+                    </div>
+
+                    <div id="content" class="field">
+                        <label>תוכן</label>
+                        <input type="text">
+                    </div>
+
+                    <div id="imageUrl" class="field">
+                        <label>כתובת תמונה</label>
+                        <input type="url">
+                    </div>
+
+                    <div id="altText" class="field">
+                        <label>טקסט חלופי (ALT)</label>
+                        <input type="text">
+                    </div>
+
+                    <div id="width" class="field">
+                        <label>רוחב</label>
+                        <input type="number">
+                    </div>
+
+                    <div id="height" class="field">
+                        <label>גובה</label>
+                        <input type="number">
+                    </div>
+
+                    <div id="href" class="field">
+                        <label>קישור (URL)</label>
+                        <input type="url" id="linkURL">
+                    </div>
+
+                    <div id="text" class="field">
+                        <label>תיאור הקישור</label>
+                        <input type="text">
+                    </div>
+                    
+                    <div id="alignment" class="field">
+                        <label>יישור טקסט</label>
+                        <select id="alignmentSelect">
+                            <option value="left">שמאל</option>
+                            <option value="center">מרכז</option>
+                            <option value="right">ימין</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button onclick="add()">הוסף</button>
+                <button onclick="resetPage()">איפוס מסך</button>
+            </div>
+        </div>
+
+        <div id="main">
+            <div id="page" contenteditable="true"></div>
+        </div>
+    </div>
+</body>
+
+</html>

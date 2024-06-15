@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600;700;900&display=swap');
+
+:root {
+    --bg: #ed2626;
+    --bg1: #e81296;
+}
+
+body {
+    direction: rtl;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--bg1);
+}
+
+h1 {
+    color: var(--bg);
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h1:hover {
+    filter: brightness(2.0);
+}
+
+.frame {
+    width: 80%;
+    max-width: 900px;
+    min-height: 450px;
+    background-color: white;
+    margin: auto;
+    border-radius: 6px;
+    padding: 16px;
+    box-shadow: 0 0 4px #00000059;
+    padding-bottom: 100px;
+}
+
+.tasks {
+    padding: 0;
+    list-style-type: none;
+}
+
+.tasks li {
+    border-bottom: 1px solid #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.tasks li:first-child {
+    border-top: 1px solid #cccccc;
+}
+
+
+.tasks li>div {
+    padding: 0 8px;
+    flex: 1;
+    outline: 0;
+}
+
+.tasks li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.tasks li button:hover {
+    transform: scale(1.1);
+}
+
+.delete-btn img,
+.edit-btn img {
+    max-width: 24px;
+    max-height: auto;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+}
+
+button {
+    background-color: var(--bg);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    margin: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(1.2);
+    transform: scale(1.1);
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.input-container input {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.delete-title-btn {
+    margin-right: 89.5%;
+}
+
+@media screen and (max-width:650px) {
+    .delete-title-btn {
+        margin-right: 35%;
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .frame {
+        min-height: 350px;
+    }
+}

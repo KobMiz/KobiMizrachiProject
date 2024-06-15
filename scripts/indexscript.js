@@ -6,3 +6,22 @@ document.addEventListener('DOMContentLoaded', function () {
         navLinks.classList.toggle('active');
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    showPage(1);
+});
+
+function showPage(pageNumber) {
+    var pages = document.getElementsByClassName("galleryPage");
+    for (var i = 0; i < pages.length; i++) {
+        pages[i].style.display = "none";
+    }
+    document.getElementById("page" + pageNumber).style.display = "grid";
+
+    var infoGallery = document.querySelector(".infogallerry");
+    if (pageNumber === 1) {
+        infoGallery.classList.add("active");
+    } else {
+        infoGallery.classList.remove("active");
+    }
+}

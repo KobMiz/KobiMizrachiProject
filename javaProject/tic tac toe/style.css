@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600;700;900&display=swap');
+
+body {
+    direction: rtl;
+    font-family: 'Rubik', sans-serif;
+    background-color: #5664AF;
+    color: #00ACAC;
+}
+
+h1 {
+    text-align: center;
+    color: #00ACAC;
+    margin: 16px;
+    text-decoration: underline;
+    font-size: 2.5em;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    height: 300px;
+    gap: 5px;
+    margin: 30px auto;
+}
+
+#board>div {
+    background-color: #FCC777;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border: 2px solid #00ACAC
+}
+
+#players {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#winnerSpan {
+    color: #FCC777;
+    font-size: 2.1em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#players>div {
+    text-align: center;
+    color: #00ACAC;
+    background: #FCC777;
+    border-radius: 50%;
+    display: flex;
+    width: 160px;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 26px;
+}
+
+#players h2 {
+    margin: 0;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+#players>div.currentTurn {
+    border: 3px solid;
+}
+
+#board>div.win {
+    animation: winning-cell 1s infinite;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 20px 25px;
+    margin-top: 20px;
+    color: #00ACAC;
+    background: #FCC777;
+    font-size: 20px;
+    border: 2px solid #00ACAC;
+    margin-left: 8px;
+    margin-right: 26px;
+}
+
+@keyframes winning-cell {
+    0% {
+        background-color: #00ACAC;
+        color: #FCC777;
+        border: 2px solid #FCC777;
+    }
+
+    50% {
+        background-color: #FCC777;
+        color: #00ACAC;
+        border: 2px solid #00ACAC;
+    }
+
+    100% {
+        background-color: #00ACAC;
+        color: #FCC777;
+        border: 2px solid #FCC777;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #players {
+        justify-content: center;
+        gap: 40px;
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+
+    #players>div {
+        width: 120px;
+        height: 120px;
+        font-size: 23px;
+    }
+
+    #winnerSpan {
+        font-size: 22px;
+    }
+
+    #players h2 {
+        font-size: 1.8em;
+    }
+}

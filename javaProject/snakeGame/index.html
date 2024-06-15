@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Snake</title>
+</head>
+
+<body onload="createBoard()">
+    <div id="instructions">
+        <h2>הוראות המשחק:</h2>
+        <p>1. השתמש בחצים או במגע לתנועת הנחש.</p>
+        <p>2. אכילת תפוחים תגרום לגידול הנחש וגדילה בסך הניקוד.</p>
+        <p>3. נסה לא להתנגש בקירות או לאכול את עצמך - זה יוביל לסיום המשחק.</p>
+        <p>4.מטרת המשחק - 30 נקודות</p>
+        <button id="closeInstructionsBtn" onclick="closeInstructions()">X</button>
+    </div>
+    <h1>Snake<span id="instructionsIcon" onclick="toggleInstructions()">?</span></h1>
+    <div id="board"></div>
+    <div class="responsiveFix">
+        <p id="score"><b>ניקוד: </b> <span>0</span></p>
+        <button id="newGame" onclick="newGame()">משחק חדש</button>
+    </div>
+</body>
+
+</html>

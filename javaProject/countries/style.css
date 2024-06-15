@@ -1,0 +1,23 @@
+.img {
+    height: 40%;
+}
+
+.card-text{
+    color: black;
+    font-size: 16px;
+}
+
+.fa-heart {
+    color: #000;
+    /* צבע האייקון במצב הרגיל */
+}
+
+.fa-heart.clicked {
+    color: #ff4040;
+    /* צבע האייקון כאשר מסומן */
+}
+
+.card-title{
+    text-align: center;
+    color: #007BFF;
+}
