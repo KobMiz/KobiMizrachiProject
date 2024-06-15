@@ -40,5 +40,13 @@
         color: #8a264b;
         font-size: 21px;
     }
+}
 
+button {
+    cursor: pointer;
+}
+
+.imgLogo {
+    position: relative;
+    z-index: 1;
 }

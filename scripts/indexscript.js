@@ -25,3 +25,29 @@ function showPage(pageNumber) {
         infoGallery.classList.remove("active");
     }
 }
+
+const buttons = document.querySelectorAll('button');
+
+buttons.forEach(button => {
+    button.addEventListener('mouseenter', function () {
+        button.style.transform = 'scale(1.1)';
+        button.style.transition = 'transform 0.3s ease';
+    });
+
+    button.addEventListener('mouseleave', function () {
+        button.style.transform = 'scale(1)';
+    });
+});
+
+const logos = document.querySelectorAll('.imgLogo');
+
+logos.forEach(logo => {
+    logo.addEventListener('mouseenter', function () {
+        logo.style.transform = 'scale(1.15)';
+        logo.style.transition = 'transform 0.3s ease';
+    });
+
+    logo.addEventListener('mouseleave', function () {
+        logo.style.transform = 'scale(1)';
+    });
+});

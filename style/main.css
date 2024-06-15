@@ -23,6 +23,7 @@ html {
   flex-direction: row-reverse;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 .miniMe {
@@ -175,6 +176,15 @@ html {
     font-size: 21px;
   }
 }
+button {
+  cursor: pointer;
+}
+
+.imgLogo {
+  position: relative;
+  z-index: 1;
+}
+
 .about {
   color: blue;
   text-align: center;
