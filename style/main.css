@@ -515,6 +515,7 @@ input[type=text] {
 .rightname {
   color: aliceblue;
   font-size: 20px;
+  font-family: monospace;
 }
 
 .footerlogo:link {
@@ -669,4 +670,11 @@ h6 {
 }
 .buton {
   margin-top: 2vh;
+}
+
+@media screen and (max-width: 420px) {
+  .imgLogo {
+    width: 10vw;
+    height: 7.5vh;
+  }
 }/*# sourceMappingURL=main.css.map */
