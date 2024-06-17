@@ -247,10 +247,6 @@ button {
   transition: width 0.3s, height 0.3s;
 }
 
-.galleryBox:hover {
-  width: 360px;
-}
-
 .galleryPage {
   display: none;
   grid-template-columns: repeat(3, 20%);
