@@ -51,3 +51,18 @@ logos.forEach(logo => {
         logo.style.transform = 'scale(1)';
     });
 });
+
+
+const galleryBoxes = document.querySelectorAll('.galleryBox');
+
+galleryBoxes.forEach(galleryBox => {
+    galleryBox.addEventListener('mouseover', function () {
+        galleryBox.style.transform = 'scale(1.1)';
+        galleryBox.style.transition = 'transform 0.3s ease';
+    });
+
+    galleryBox.addEventListener('mouseout', function () {
+        galleryBox.style.transform = 'scale(1)';
+    });
+});
+

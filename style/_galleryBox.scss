@@ -13,7 +13,12 @@
     background-color: #8a264b;
     margin: auto;
     box-shadow: 3px 5px 5px black;
+    transition: width 0.3s, height 0.3s;
 }
+
+.galleryBox:hover {
+    width: 360px;
+    }
 
 .galleryPage {
     display: none;
