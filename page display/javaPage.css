@@ -180,4 +180,8 @@ a.new:hover {
         margin-top: 2rem;
         text-align: center;
     }
+
+    .imgset {
+        margin-top: 10px;
+    }
 }
