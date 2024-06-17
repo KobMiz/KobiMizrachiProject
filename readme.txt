@@ -1,7 +1,7 @@
 # Portfolio Project
 
 ## Description
-This portfolio project showcases my skills, projects, and experiences using HTML and CSS. It provides an interactive and visually appealing way to present my work to potential clients or employers.
+This portfolio project showcases my skills, projects, and experiences using HTML and CSS, javaScript and a few more tech. It provides an interactive and visually appealing way to present my work to potential clients or employers.
 
 ## Features
 - Responsive design to ensure compatibility with various screen sizes and devices.
