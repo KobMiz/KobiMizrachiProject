@@ -34,7 +34,9 @@
 
 }
 
-input[type=text] {
+input[type=text],
+input[type=number],
+input[type=email] {
     background-color: white;
     width: 80%;
     height: 32px;
