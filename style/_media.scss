@@ -1,7 +1,35 @@
+@media screen and (max-width:1550px) {
+    .text2 {
+        margin-right: 3.5vw;
+    }
+}
+
+@media screen and (max-width:1350px) {
+    .text2 {
+        margin-right: 5.5vw;
+    }
+
+    .aboutbuton {
+        margin-right: 42vw;
+    }
+}
+
 @media screen and (max-width:1200px) {
     body {
         overflow-x: hidden;
     }
+
+    #aboutme {
+        background-image: none;
+    }
+
+    .text2 {
+        margin-top: none;
+        margin-right: 24vw;
+        letter-spacing: 1px;
+        width: 50vw;
+    }
+
 
     .bgisize {
         width: 100%;
@@ -15,7 +43,7 @@
     }
 
     .about {
-        width: 80%;
+        width: 100%;
     }
 
     .mainh1 {
@@ -30,7 +58,7 @@
     }
 
     .aboutbuton {
-        margin-right: 23vw;
+        margin-right: 35vw;
     }
 
     .inform {
@@ -151,15 +179,26 @@
         width: 12vw;
         height: 10vh;
     }
+
+    .buton {
+        margin-top: 2vh;
+    }
+
+    .text2 {
+        width: 80vw;
+        margin-right: 10vw;
+    }
 }
 
-.buton {
-    margin-top: 2vh;
-}
 
-@media screen and (max-width:420px) {
+
+@media screen and (max-width:650px) {
     .imgLogo {
         width: 10vw;
         height: 7.5vh;
     }
+        .aboutbuton {
+            margin-right: 22.5vw;
+        }
 }
+

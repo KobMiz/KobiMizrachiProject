@@ -1,3 +1,10 @@
+#aboutme{
+    margin-top: 0.45vh;
+    margin-bottom: -10.5vh;
+    background-image: url(../images/try.png);
+    background-size: cover;
+}
+
 .about {
     color: blue;
     text-align: center;
@@ -17,13 +24,17 @@
     color: #8a264b;
     font-family: 'Fredoka', sans-serif;
     margin-top: 25px;
+    text-shadow: 2px 2px 4px black; 
 }
 
 .text2 {
     font-family: 'Fredoka', sans-serif;
-    color: black;
+    color: #8a264b;
+        text-shadow: 2px black;
     margin-top: 20px;
+    margin-right: 2vw;
     letter-spacing: 1px;
+    width: 27vw;
 }
 
 .aboutbuton {

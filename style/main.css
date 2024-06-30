@@ -185,6 +185,26 @@ button {
   z-index: 1;
 }
 
+*::-webkit-scrollbar {
+  width: 1.2em;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #8a264b;
+  border: 2px solid #fff;
+}
+
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px black;
+}
+
+#aboutme {
+  margin-top: 0.45vh;
+  margin-bottom: -10.5vh;
+  background-image: url(../images/try.png);
+  background-size: cover;
+}
+
 .about {
   color: blue;
   text-align: center;
@@ -204,13 +224,17 @@ button {
   color: #8a264b;
   font-family: "Fredoka", sans-serif;
   margin-top: 25px;
+  text-shadow: 2px 2px 4px black;
 }
 
 .text2 {
   font-family: "Fredoka", sans-serif;
-  color: black;
+  color: #8a264b;
+  text-shadow: 2px black;
   margin-top: 20px;
+  margin-right: 2vw;
   letter-spacing: 1px;
+  width: 27vw;
 }
 
 .aboutbuton {
@@ -545,9 +569,31 @@ h6 {
   color: #8a264b;
 }
 
+@media screen and (max-width: 1550px) {
+  .text2 {
+    margin-right: 3.5vw;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .text2 {
+    margin-right: 5.5vw;
+  }
+  .aboutbuton {
+    margin-right: 42vw;
+  }
+}
 @media screen and (max-width: 1200px) {
   body {
     overflow-x: hidden;
+  }
+  #aboutme {
+    background-image: none;
+  }
+  .text2 {
+    margin-top: none;
+    margin-right: 24vw;
+    letter-spacing: 1px;
+    width: 50vw;
   }
   .bgisize {
     width: 100%;
@@ -559,7 +605,7 @@ h6 {
     right: 20%;
   }
   .about {
-    width: 80%;
+    width: 100%;
   }
   .mainh1 {
     font-size: 34px;
@@ -571,7 +617,7 @@ h6 {
     text-align: center;
   }
   .aboutbuton {
-    margin-right: 23vw;
+    margin-right: 35vw;
   }
   .inform {
     padding-top: 30px;
@@ -670,14 +716,20 @@ h6 {
     width: 12vw;
     height: 10vh;
   }
+  .buton {
+    margin-top: 2vh;
+  }
+  .text2 {
+    width: 80vw;
+    margin-right: 10vw;
+  }
 }
-.buton {
-  margin-top: 2vh;
-}
-
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 650px) {
   .imgLogo {
     width: 10vw;
     height: 7.5vh;
+  }
+  .aboutbuton {
+    margin-right: 22.5vw;
   }
 }/*# sourceMappingURL=main.css.map */
