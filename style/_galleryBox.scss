@@ -159,7 +159,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
     #gallery .galleryPage {
         grid-template-columns: 100%;
 
@@ -177,8 +177,8 @@
     }
 
     #gallery .galleryBox {
-        width: 85%;
-        height: 55vh;
+        width: 55%;
+        height: 50vh;
         border-radius: 10%;
         background-color: #8a264b;
         margin: auto;

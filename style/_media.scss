@@ -1,204 +1,204 @@
-@media screen and (max-width:1550px) {
-    .text2 {
-        margin-right: 3.5vw;
-    }
+@media screen and (max-width: 1550px) {
+  .text2 {
+    margin-right: 3.5vw;
+  }
 }
 
-@media screen and (max-width:1350px) {
-    .text2 {
-        margin-right: 5.5vw;
-    }
+@media screen and (max-width: 1350px) {
+  .text2 {
+    margin-right: 5.5vw;
+    margin-bottom: 20px;
+  }
 
-    .aboutbuton {
-        margin-right: 42vw;
-    }
+  .aboutbuton {
+    margin: 0 auto;
+  }
+
+  .inform {
+    margin-right: 0;
+    padding-top: 80px;
+    width: 30.3%;
+  }
 }
 
-@media screen and (max-width:1200px) {
-    body {
-        overflow-x: hidden;
-    }
+@media screen and (max-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
 
-    #aboutme {
-        background-image: none;
-    }
+  #aboutme {
+    background-image: none;
+  }
 
-    .text2 {
-        margin-top: none;
-        margin-right: 24vw;
-        letter-spacing: 1px;
-        width: 50vw;
-    }
+  .text2 {
+    margin-top: none;
+    margin-right: 24vw;
+    letter-spacing: 1px;
+    width: 50vw;
+  }
 
+  .bgisize {
+    width: 100%;
+    height: 350px;
+  }
 
-    .bgisize {
-        width: 100%;
-        height: 350px;
-    }
+  .inthepic {
+    position: absolute;
+    top: 10%;
+    right: 20%;
+  }
 
-    .inthepic {
-        position: absolute;
-        top: 10%;
-        right: 20%;
-    }
+  .about {
+    width: 100%;
+  }
 
-    .about {
-        width: 100%;
-    }
+  .mainh1 {
+    font-size: 34px;
+    text-align: center;
+  }
 
-    .mainh1 {
-        font-size: 34px;
-        text-align: center;
-    }
+  .text1 {
+    font-size: 19px;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
 
-    .text1 {
-        font-size: 19px;
-        margin-top: 0.5rem;
-        text-align: center;
-    }
+  .aboutbuton {
+    margin: 0 auto;
+  }
 
-    .aboutbuton {
-        margin-right: 35vw;
-    }
+  .inform {
+    padding-top: 30px;
+    padding-right: 45px;
+  }
 
-    .inform {
-        padding-top: 30px;
-        padding-right: 45px;
-    }
+  .forbuton {
+    margin-right: 50px;
+  }
 
-    .forbuton {
-        margin-right: 50px;
-    }
+  .mininfo {
+    margin: auto;
+    padding-top: 50px;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
+  .infologo {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+  }
 
-    .mininfo {
-        margin: auto;
-        padding-top: 50px;
-        width: 100vw;
-        height: 20vh;
-        display: flex;
-        flex-wrap: wrap;
-    }
+  .footerlogo:link {
+    font-size: 18px;
+  }
 
-    .infologo {
-        width: 40px;
-        height: 40px;
-        margin: 0 auto;
-    }
-
-    .footerlogo:link {
-        font-size: 18px;
-    }
-
-    h6 {
-        font-size: 18px;
-    }
+  h6 {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .background {
-        background-image: none;
+  .background {
+    background-image: none;
+  }
+
+  .phonemail {
+    display: block;
+    /* margin-right: 60vw; */
+  }
+
+  .mailimg {
+    width: 185px;
+    height: 161px;
+  }
+
+  .inform {
+    margin: 0 auto;
+    margin-top: -80px;
+    width: 70.5%;
+
+    .footerh2 {
+      font-size: 30px;
+      color: aliceblue;
+      margin-bottom: 10px;
+      text-decoration: underline #c3b2e1;
     }
 
-    .phonemail {
-        display: block;
-        /* margin-right: 60vw; */
+    .footerp {
+      font-size: 16px;
+      color: aliceblue;
+      margin-bottom: 10px;
     }
+  }
 
-    .mailimg {
-        width: 185px;
-        height: 161px;
-    }
+  .forbuton {
+    width: 30%;
+    height: 50px;
+    background-color: white;
+    color: #8a264b;
+    margin-top: 15px;
+    border: 2px solid #c3b2e1;
+    font-size: 20px;
+    border-radius: 50%;
+  }
 
+  .contact {
+    height: 400px;
+    width: 100%;
+    background-color: #c3b2e1;
+  }
 
-    .inform {
-        margin: 0 auto;
-        margin-top: -80px;
-        width: 70.5%;
+  .mininfo {
+    width: 95%;
+    height: 100%;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, 1fr);
+  }
 
-        .footerh2 {
-            font-size: 30px;
-            color: aliceblue;
-            margin-bottom: 10px;
-            text-decoration: underline #C3B2E1;
-        }
+  .infologo {
+    width: 30px;
+    height: 30px;
+  }
 
-        .footerp {
-            font-size: 16px;
-            color: aliceblue;
-            margin-bottom: 10px;
-        }
-    }
+  .footerlogo:link {
+    font-size: 14px;
+  }
 
-    .forbuton {
-        width: 30%;
-        height: 50px;
-        background-color: white;
-        color: #8a264b;
-        margin-top: 15px;
-        border: 2px solid #C3B2E1;
-        font-size: 20px;
-        border-radius: 50%;
-    }
+  h6 {
+    font-size: 14px;
+    text-align: center;
+  }
 
-    .contact {
-        height: 400px;
-        width: 100%;
-        background-color: #C3B2E1;
+  .logofix {
+    margin-top: 20px;
+  }
 
-    }
+  .imgLogo {
+    width: 12vw;
+    height: 10vh;
+  }
 
-    .mininfo {
-        width: 95%;
-        height: 100%;
-        padding-top: 20px;
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-        grid-template-rows: repeat(3, 1fr);
-    }
+  .buton {
+    margin-top: 2vh;
+  }
 
-    .infologo {
-        width: 30px;
-        height: 30px;
-    }
-
-    .footerlogo:link {
-        font-size: 14px;
-    }
-
-    h6 {
-        font-size: 14px;
-        text-align: center;
-    }
-
-    .logofix {
-        margin-top: 20px;
-    }
-
-    .imgLogo {
-        width: 12vw;
-        height: 10vh;
-    }
-
-    .buton {
-        margin-top: 2vh;
-    }
-
-    .text2 {
-        width: 80vw;
-        margin-right: 10vw;
-    }
+  .text2 {
+    width: 80vw;
+    margin-right: 10vw;
+  }
 }
 
-
-
-@media screen and (max-width:650px) {
-    .imgLogo {
-        width: 10vw;
-        height: 7.5vh;
-    }
-        .aboutbuton {
+@media screen and (max-width: 650px) {
+  .imgLogo {
+    width: 10vw;
+    height: 7.5vh;
+  }
+  /*  .aboutbuton {
             margin-right: 22.5vw;
-        }
+        } */
 }
-
