@@ -1,91 +1,99 @@
 .navheader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #8a264b;
-    color: #fff;
-    padding: 10px 20px;
-    flex-direction: row-reverse;
-    position: fixed;
-    width: 100%;
-        z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8a264b;
+  color: #fff;
+  padding: 10px 20px;
+  flex-direction: row-reverse;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 
 .miniMe {
-    border-radius: 100%;
+  border-radius: 100%;
 }
 
 .logo-container {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 
 .logo-container img {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
 
 .logo-text {
-    font-size: 20px;
-    font-family: 'Rubik Spray Paint', system-ui;
+  font-size: 20px;
+  font-family: "Rubik Spray Paint", system-ui;
 }
 
 .nav-links {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 .nav-links li {
-    padding: 10px;
+  padding: 10px;
+  height: 100%;
 }
 
-
 .nav-links li:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .nav-links a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
+    font-family: "Rubik Spray Paint", system-ui;
+
+}
+
+.nav-links a:hover {
+  color: #8a264b;
+  background-color: #fff;
+  border-radius: 100%;
+  padding: 8px;
+  font-size: 24px;
+  font-family: "Rubik Spray Paint", system-ui, bold;
 }
 
 .hamburger-menu {
-    display: none;
-    cursor: pointer;
+  display: none;
+  cursor: pointer;
 }
 
-
 @media only screen and (max-width: 768px) {
-    @media only screen and (max-width: 768px) {
-        .nav-links {
-            display: none;
-            position: fixed;
-            top: 60px;
-            right: 0;
-            background-color: #8a264b;
-            width: 100%;
-            flex-direction: column;
-        }
-
-        .nav-links.active {
-            display: flex;
-            position: fixed;
-        }
-
-        .nav-links li {
-            margin-bottom: 10px;
-        }
-
-        .hamburger-menu {
-            height: 2.8vh;
-            display: flex;
-            cursor: pointer;
-            background-color: #8a264b;
-            margin: 0 auto;
-        }
+  @media only screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+      position: fixed;
+      top: 60px;
+      right: 0;
+      background-color: #8a264b;
+      width: 100%;
+      flex-direction: column;
     }
 
+    .nav-links.active {
+      display: flex;
+      position: fixed;
+    }
 
+    .nav-links li {
+      margin-bottom: 10px;
+    }
+
+    .hamburger-menu {
+      height: 2.8vh;
+      display: flex;
+      cursor: pointer;
+      background-color: #8a264b;
+      margin: 0 auto;
+    }
+  }
 }

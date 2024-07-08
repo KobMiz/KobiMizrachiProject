@@ -54,6 +54,7 @@ html {
 
 .nav-links li {
   padding: 10px;
+  height: 100%;
 }
 
 .nav-links li:last-child {
@@ -63,6 +64,16 @@ html {
 .nav-links a {
   text-decoration: none;
   color: #fff;
+  font-family: "Rubik Spray Paint", system-ui;
+}
+
+.nav-links a:hover {
+  color: #8a264b;
+  background-color: #fff;
+  border-radius: 100%;
+  padding: 8px;
+  font-size: 24px;
+  font-family: "Rubik Spray Paint", system-ui, bold;
 }
 
 .hamburger-menu {
