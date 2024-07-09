@@ -79,11 +79,13 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 0.3s ease;
+  transition: 0.3s ease-out;
 }
 
 .butun:hover {
     background-color: #6d1b3f;
+    scale: 1.15;
+    transition: 0.3s ease-out;
 }
 
 .butun a {
@@ -99,6 +101,7 @@ h2 {
 .butun a:hover {
     text-decoration: underline;
     color: #F8FAFB;
+    scale: 1.08;
 }
 
 a:link,
@@ -117,6 +120,7 @@ a:hover {
 a.new:hover {
     color: #fff;
     font-size: 16.5px;
+    scale: 1.1;
 }
 
 .afterheadr {

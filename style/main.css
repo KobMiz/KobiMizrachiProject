@@ -37,8 +37,8 @@ html {
 }
 
 .logo-container img {
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 55px;
   margin-right: 10px;
 }
 
@@ -65,6 +65,7 @@ html {
   text-decoration: none;
   color: #fff;
   font-family: "Rubik Spray Paint", system-ui;
+  transition: 0.3s ease-out;
 }
 
 .nav-links a:hover {
@@ -79,6 +80,10 @@ html {
 .hamburger-menu {
   display: none;
   cursor: pointer;
+}
+
+.backToMain {
+  color: #fff;
 }
 
 @media only screen and (max-width: 768px) and (max-width: 768px) {
