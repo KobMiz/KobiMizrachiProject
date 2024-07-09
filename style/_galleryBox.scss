@@ -32,10 +32,6 @@
   border-top-right-radius: 10%;
 }
 
-#gallery .fixgalimg {
-  font-size: 1.5rem;
-}
-
 #gallery h3 {
   color: #f8fafb;
   text-align: center;
@@ -112,29 +108,25 @@
 }
 
 #pagination button:hover {
-  background-color: #6d1b3f;
+    background-color: #6d1b3f;
 }
 
-.gallerya:hover {
-  text-decoration: underline;
-  color: maroon;
+
+.galleryBox .gallbuton a:hover {
+    text-decoration: underline;
+    color: maroon;
 }
 
 .gallerya.new:hover {
-  color: #8a264b;
+    color: #8a264b;
 }
 
 .gallerya:link,
 .gallerya:visited {
-  text-decoration: none;
-  color: #8a264b;
-  font-size: 24px;
+    text-decoration: none;
+    color: #8a264b;
+    font-size: 24px;
 }
-
- #gallery .gallbuton a:hover {
-            text-decoration: underline;
-            color: maroon;
-        }
 
 @media only screen and (max-width: 1200px) {
   #gallery {

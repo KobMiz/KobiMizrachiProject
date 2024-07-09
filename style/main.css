@@ -281,10 +281,6 @@ button {
   border-top-right-radius: 10%;
 }
 
-#gallery .fixgalimg {
-  font-size: 1.5rem;
-}
-
 #gallery h3 {
   color: #f8fafb;
   text-align: center;
@@ -364,7 +360,7 @@ button {
   background-color: #6d1b3f;
 }
 
-.gallerya:hover {
+.galleryBox .gallbuton a:hover {
   text-decoration: underline;
   color: maroon;
 }
@@ -378,11 +374,6 @@ button {
   text-decoration: none;
   color: #8a264b;
   font-size: 24px;
-}
-
-#gallery .gallbuton a:hover {
-  text-decoration: underline;
-  color: maroon;
 }
 
 @media only screen and (max-width: 1200px) {
