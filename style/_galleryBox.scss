@@ -64,8 +64,8 @@
   width: 100%;
   height: 100%;
   text-align: center;
-  line-height: 2.5; /* Adjust this to center the text vertically */
-  color: inherit; /* Inherit color from button */
+  line-height: 2.5;
+  color: inherit; 
   text-decoration: none;
 }
 
@@ -157,8 +157,6 @@
       border-radius: 45%;
       margin-right: 26%;
       font-size: 14px;
-      /*             margin-top: 4vh;
- */
     }
   }
 }
@@ -181,8 +179,8 @@
   }
 
   #gallery .galleryBox {
-    width: 55%;
-    height: 50vh;
+    width: 80%;
+    height: 55vh;
     border-radius: 10%;
     background-color: #8a264b;
     margin: auto;
