@@ -12,13 +12,13 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function showPage(pageNumber) {
-    var pages = document.getElementsByClassName("galleryPage");
+    const pages = document.getElementsByClassName("galleryPage");
     for (var i = 0; i < pages.length; i++) {
         pages[i].style.display = "none";
     }
     document.getElementById("page" + pageNumber).style.display = "grid";
 
-    var infoGallery = document.querySelector(".infogallerry");
+    const infoGallery = document.querySelector(".infogallerry");
     if (pageNumber === 1) {
         infoGallery.classList.add("active");
     } else {
