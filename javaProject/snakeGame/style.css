@@ -114,7 +114,8 @@ h1 {
   #instructions {
     width: 200px;
     height: 40vh;
-margin-top: 90px;  }
+    margin-top: 90px;
+  }
 
   .responsiveFix {
     display: flex;
@@ -169,8 +170,8 @@ margin-top: 90px;  }
   }
 
   #board > div {
-    height: 11.5px;
-    width: 12px;
+    height: 10px;
+    width: 13px;
   }
 
   #newGame {
@@ -237,14 +238,14 @@ margin-top: 90px;  }
   }
 }
 
-@media screen and (max-width: 400px){
-#instructions {
+@media screen and (max-width: 400px) {
+  #instructions {
     margin: 7vh -35vw;
   }
 }
 
-@media screen and (max-width: 320px){
-#instructions {
+@media screen and (max-width: 320px) {
+  #instructions {
     margin: 7vh -40vw;
     font-size: 14px;
     width: 150px;
